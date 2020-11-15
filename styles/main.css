@@ -1,0 +1,49 @@
+/* GRID TEMPLATE */
+
+/* Use a container to define the layout */
+.container {
+    display: grid;
+    height: 100vh;
+    /* make 3 columns, 1fr wide each */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* make 4 rows of sizes relevant to markup design */
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.2fr;
+    grid-template-areas:
+        "nav nav nav"
+        "main main main"
+        "content1 content2 content3"
+        "footer footer footer";
+    /* add equal spacing between element */
+    grid-gap: 0.2rem;
+  }
+
+nav {
+    background: #eda6df;
+    /* acts as an id for the grid */
+    grid-area: nav;
+}
+
+main {
+    background: #5a79a1;
+    grid-area: main;
+}
+
+#content1 {
+    background: lightblue;
+    grid-area: content1;
+}
+
+#content2 {
+    background: #D7D9CE;
+    grid-area: content2;
+}
+
+#content3 {
+    background: #F26430;
+    grid-area: content3;
+}
+
+footer {
+    background: #b3f5c2;
+    grid-area: footer;
+}
