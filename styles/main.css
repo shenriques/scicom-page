@@ -17,10 +17,37 @@
     grid-gap: 0.2rem;
   }
 
+/* NAVIGATION */
+
 nav {
-    background: #eda6df;
+    background: #FFC759;
     /* acts as an id for the grid */
     grid-area: nav;
+    padding-top: 5px;
+}
+
+.nav-links {
+    /* displays the links horizontally */
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    /* remove bullet points */
+    list-style: none;
+    /* make everything upper case */
+    text-transform: uppercase;
+    /* move to the right of screen */
+    float: right;
+
+}
+
+.nav-links a {
+    /* Make links white and remove the underline */
+    color: white;
+    text-decoration: none;
+    /* make letters bold, slightly spaced */
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 main {
