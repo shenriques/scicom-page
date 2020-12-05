@@ -1,3 +1,4 @@
+/* ------------------- PAGE STYLING ------------------- */
 body {
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@ body {
     scroll-snap-type: y mandatory;
 }
 
+/* ------------------- NAVIGATION BAR ------------------- */
 .navbar {
     /* keep it at top of screen*/
     position: fixed;
@@ -59,6 +61,7 @@ body {
     color: skyblue;
 }
 
+/* ------------------- ALL SECTIONS ------------------- */
 section {
     display: flex;
     flex-direction: column;
@@ -79,3 +82,5 @@ section h1 {
 section p {
     font-size: 1.5rem;
 }
+
+/* ------------------- CAROUSEL ------------------- */
