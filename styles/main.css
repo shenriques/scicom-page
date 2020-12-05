@@ -142,3 +142,35 @@ section p {
 .arrow.right {
     right: 10px;
 }
+
+.controls ul {
+    position: absolute;
+    bottom: 20px;
+    /* center it */
+    left: 50%;
+    transform: translate(-50%);
+    /* remove bullet points */
+    list-style: none;
+    /* align horizontally */
+    display: flex;
+    /* centers the 4 circles below */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .controls ul li {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    /* make border circles, not squares */
+    border-radius: 50px;
+    /* space them out */
+    margin: 10px;
+    background: #000;
+    cursor: pointer;
+  }
+  
+  /* if they are selected, turn transparent */
+  .controls ul li.selected {
+    background: #FFC759;
+  }
