@@ -99,3 +99,23 @@ section p {
   /* only see whichever slider is present at the time */
   overflow: hidden;
 }
+
+.slider {
+    /* fill height of parent */
+    height: 100%;
+    /* automatically aligns content horizontally*/
+    display: flex;
+    /* set width to be 4x parent = only show 1 slider at a time */
+    width: 400%;
+    /* so you can see movement */
+    transition: all 0.3s;
+  }
+  
+  .slider section {
+    /* hold same space within slider */
+    flex-basis: 100%;
+    /* center the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
