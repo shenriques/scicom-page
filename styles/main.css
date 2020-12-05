@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #fff;
+    line-height: 1.6;
+    height: 100vh;
+}
+
+.container {
+    /* takes up whole body */
+    width: 100%;
+    height: 100%;
+    /* set vertical overflow to scroll */
+    overflow-y: scroll;
+    /* make scroll behaviour smooth. not cross browser compatible */
+    scroll-behavior: smooth;
+    /* make sure it hits one page */
+    scroll-snap-type: y mandatory;
+}
