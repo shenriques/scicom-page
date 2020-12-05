@@ -84,3 +84,18 @@ section p {
 }
 
 /* ------------------- CAROUSEL ------------------- */
+.carousel-container {
+    width: 80%;
+    /* centers the container */
+    margin: 25px auto;
+  }
+  
+.carousel {
+  /* border: 1px solid #FFF; */
+  /* define height by length of content */
+  height: 800px;
+  /* need this to position child arrow elements absolutely */
+  position: relative;
+  /* only see whichever slider is present at the time */
+  overflow: hidden;
+}
