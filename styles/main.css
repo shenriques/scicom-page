@@ -118,4 +118,27 @@ section p {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+
+.controls .arrow {
+    position: absolute;
+    /* center them */
+    top: 50%;
+    /* center them better */
+    transform:translateY(-50%);
+    /* MORE OBVIOUS TO USER THAT THEY ARE INTERACTIVE */
+    cursor: pointer;
+}
+  
+.controls .arrow i {
+    font-size: 50px;
+}
+
+/* position the arrows */
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
