@@ -8,6 +8,14 @@ const rightArrow = document.querySelector('.right')
 
 var contentIndex = 0;
 
+// scrolling with carousel indicators
+document.querySelectorAll('.controls li').forEach(function(circle, index) {
+    circle.addEventListener('click', function() {
+        slider.style.transform = 'translate(' + (index) * -25 + '%)';
+    });
+});
+
+// scrolling with arrows 
 rightArrow.addEventListener('click', function() {
     // scroll right unless the content slider you're on is 3 (end of slider)
     contentIndex = (contentIndex < 3) ? contentIndex + 1 : 3;
