@@ -11,6 +11,9 @@ var contentIndex = 0;
 // scrolling with carousel indicators
 document.querySelectorAll('.controls li').forEach(function(circle, index) {
     circle.addEventListener('click', function() {
+        // colour only the circle of the page in view
+        document.querySelector('.controls .selected').classList.remove('selected');
+        circle.classList.add('selected');
         slider.style.transform = 'translate(' + (index) * -25 + '%)';
     });
 });
