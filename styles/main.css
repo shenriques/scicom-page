@@ -202,5 +202,15 @@ section p {
 .team-img {
     height: 260px;
     width: 260px;
+    /* circular images */
+    border-radius: 70%;
+    /* make them grey unless selected */
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
 
+.team-profile:hover .team-img {
+    /* when hover, show full colour */
+    filter: grayscale(0);
 }
