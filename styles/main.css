@@ -83,7 +83,7 @@ section p {
     font-size: 1.5rem;
 }
 
-/* ------------------- CAROUSEL ------------------- */
+/* ------------------- EVENT SECTION: CAROUSEL ------------------- */
 .carousel-container {
     width: 80%;
     /* centers the container */
@@ -174,3 +174,33 @@ section p {
   .controls ul li.selected {
     background: #FFC759;
   }
+
+/* ------------------- SECTION: TEAM ------------------- */
+
+.team-container {
+    margin: 20px 40px;
+    color: white;
+}
+
+.team-name {
+    font-size: 60px;
+    color: white;
+}
+
+.team-profiles {
+    /* appear in a row */
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.team-profile {
+    /* set initial size */
+    flex-basis: 260px;
+}
+
+.team-img {
+    height: 260px;
+    width: 260px;
+
+}
