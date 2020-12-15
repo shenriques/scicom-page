@@ -214,3 +214,20 @@ section p {
     /* when hover, show full colour */
     filter: grayscale(0);
 }
+
+.team-name {
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.team-profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.team-profile p {
+    font-size: 17px;
+    text-align: justify;
+}
