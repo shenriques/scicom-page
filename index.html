@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CW Draft</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="styles/main.css" rel="stylesheet" type="text/css">
@@ -11,8 +12,8 @@
             <nav class="navbar">
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#events">Gallery</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -73,61 +74,46 @@
                 </div>
             </section>
             <section id="contact">
-                <div class="contact-intro">
-                    <h1>Contact Us</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                </div>
                 <div class="contact-container">
-                    <div class="contact-info">
-                        <div class="contact-box">
-                            <div class="contact-icon">
-                                <span class="material-icons">place</span>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Address</h3>
-                                <p>Somewhere House, <br>London, <br>E55 J7D</p>
-                            </div>
+                    <h1 class="company-name">Science Now</h1>
+                    <div class="contact-wrapper">
+                        <div class="company-info">
+                            <h3>Science Now</h3>
+                            <ul>
+                                <li>Somewhere House, <br>London, <br>E55 J7D</li>
+                                <li>555-666-0901</li>
+                                <li>lorem@ipsum.com</li>
+                            </ul>
                         </div>
-                        <div class="contact-box">
-                            <div class="contact-icon">
-                                <span class="material-icons">phone</span>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Phone</h3>
-                                <p>555-666-0901</p>
-                            </div>
-                        </div>
-                        <div class="contact-box">
-                            <div class="contact-icon">
-                                <span class="material-icons">email</span>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Email</h3>
-                                <p>lorem@ipsum.com</p>
-                            </div>
-                        </div>
-                        <div class="contact-form">
+                        <div class="company-details">
+                            <h3>Get In Touch</h3>
                             <form>
-                                <h2>Get In Touch</h2>
-                                <div class="contact-input">
-                                    <input type="text" name="" required="required">
-                                    <span>Name</span>
-                                </div>
-                                <div class="contact-input">
-                                    <input type="text" name="" required="required">
-                                    <span>Email</span>
-                                </div>
-                                <div class="contact-input">
-                                    <input type="text" name="" required="required">
-                                    <span>Message</span>
-                                </div>
-                                <div class="contact-input">
-                                    <input type="submit" name="" value="Send">
-                                </div>
-                            </form>
+                                <p>
+                                    <label>Name</label>
+                                    <input type="text" name="name" required="required">
+                                </p>
+                                <p>
+                                    <label>School</label>
+                                    <input type="text" name="company" required="required">
+                                </p>
+                                <p>
+                                    <label>Email Address</label>
+                                    <input type="email" name="email" required="required">
+                                </p>
+                                <p>
+                                    <label>Phone Number</label>
+                                    <input type="text" name="phone" required="required">
+                                </p>
+                                <p>
+                                    <label>Message</label>
+                                    <textarea rows="5" name="message" required="required"></textarea>
+                                </p>
+                                <p>
+                                    <button>Submit</button>
+                                </p>
                         </div>
                     </div>
-                </div>
+                </div>>
             </section>
         </div>
         <script src="js/app.js"></script>
