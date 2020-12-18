@@ -240,6 +240,7 @@ section p {
     box-sizing: border-box;
     /* text stylings */
     font-family: 'Raleway';
+    margin: 0;
 }
 
 .contact-container {
@@ -275,6 +276,10 @@ section p {
     margin: 0;
 }
 
+.company-details h3 {
+    font-size: 40px;
+}
+
 .company-details form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -300,4 +305,24 @@ section p {
     background: thistle;
     border: 0;
     text-transform: uppercase;
+}
+
+/* for large screens */
+@media(min-width: 700px) {
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 2em;
+    }
+    .company-info {
+        text-align: left;
+        padding: 1em;
+    }
+
+}
+/* if the screen is very big, increase size */
+@media(min-width: 1600px) {
+    .contact-wrapper {
+        width: 1000px;
+    }
 }
