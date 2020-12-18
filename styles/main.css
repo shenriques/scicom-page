@@ -231,3 +231,27 @@ section p {
     font-size: 17px;
     text-align: justify;
 }
+
+/* ------------------- SECTION: CONTACT ------------------- */
+
+#contact {
+    padding: 1em;
+    /* all widths will factor in padding and margin, rather than adding on */
+    box-sizing: border-box;
+    /* text stylings */
+    font-family: 'Raleway';
+}
+
+.contact-container {
+    /* for responsiveness */
+    max-width: 1170px;
+    /*appear on the left */
+    margin-left: 100px;
+    margin-right: auto;
+    padding: 1em;
+}
+
+.company-info ul {
+    list-style: none;
+    padding: 0;
+}
